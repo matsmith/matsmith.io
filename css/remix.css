@@ -1,0 +1,232 @@
+@import url(fonts.css) screen, projection;
+
+html, body {
+  font: normal normal 100 1.25em/1.333333333 "Helvetica Neue", Helvetica, sans-serif;
+  color: #7f8c8d;
+  line-height: 1.29;
+  height: 100%;
+  margin: 0;
+}
+h1,.h1 {
+  font-size: 2em; /* 64px */
+  font-weight: 100;
+  line-height: 2.2em;
+}
+h2,.h2 {
+  font-size: 1.8em; /* 52px */
+  font-weight: 200;
+  line-height: 2em;
+}
+h3,.h3 {
+  font-size: 1.6em; /* 40px */
+  font-weight: 300;
+  line-height: 1.8em;
+}
+h4,.h4 {
+  font-size: 1.4em; /* 29px */
+  font-weight: 400;
+  line-height: 1.6em;
+}
+h5,.h5 {
+  font-size: 1.2em; /* 28px */
+  font-weight: 500;
+  line-height: 1.2em;
+}
+h6,.h6 {
+  font-size: 1em; /* 24px */
+  font-weight: normal;
+  line-height: 1em;
+}
+h1,.h1,
+h2,.h2,
+h3,.h3,
+h4,.h4,
+h5,.h5,
+h6,.h6 {
+  line-height: 1.2em;
+}
+p {
+  font-size: 18.004px; /* 18px */
+  line-height: 1.722169; /* 31px */
+}
+a:link,
+a:visited {
+  color: #16a085;
+  text-decoration: none;
+  -webkit-transition: 0.25s;
+  transition: 0.25s;
+}
+a:hover,
+a:active {
+  color: #1abc9c;
+  text-decoration: none;
+}
+img {
+  max-width: 100%;
+}
+
+/* Header
+==================== */
+header h1 {
+  margin: 0 0 30px;
+  color: #ff6000;
+  font-size: 4em;
+  font-weight: 100;
+}
+header h2 {
+  margin: 0 0 30px;
+  font-size: 1.8em;
+  font-weight: 200;
+  color: #5a971d;
+}
+header p {
+  font-size: 1em;
+  font-weight: 300;
+  color: #bdc3c7;
+  line-height: 1em;
+}
+
+/* Section
+==================== */
+section {
+  background-color: #000;
+}
+section h1 {
+  display: inline-block;
+  color: #fff;
+  font-size: 2em;
+  font-weight: 100;
+  line-height: 1em;
+  padding: 30px 40px;
+  border: 8px solid #fff;
+}
+
+/* Footer
+==================== */
+footer.block {
+  height: 100px;
+  line-height: 1em;
+}
+
+/* Float
+==================== */
+.float-left {
+  float: left;
+  margin-left: 1em;
+}
+.float-right {
+  float: right;
+  margin-right: 1em;
+}
+
+/* Clearfix
+==================== */
+.clearfix:after {
+  display: table;
+  content: "";
+  clear: both;
+}
+
+/* Block
+==================== */
+.block {
+  text-align: center;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 800px;
+  overflow: hidden;
+}
+.block__align-middle {
+  margin: 0 auto;
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+/* Background
+==================== */
+.background-cars {
+  background-image: url("../img/img-1.jpg");
+}
+.background-sunset {
+  background-image: url('../img/sunset.jpg');
+}
+.background-morning {
+  background-image: url('../img/morning.jpg');
+}
+.background-transparent {
+  background-color: transparent;
+}
+.background-white {
+  background-color: #fff;
+}
+
+/* Control Button
+==================== */
+.control-btn {
+  width: 53px;
+  height: 53px;
+  line-height: 53px;
+  margin: 0;
+  padding: 0;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 19px;
+  font-weight: normal;
+  color: #ffffff;
+  background: #121518;
+  opacity: 0.3;
+  position: absolute;
+  left: 50%;
+  bottom: 10%;
+  margin-left: -26.5px;
+  z-index: 1;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+.control-btn:hover,
+.control-btn:focus,
+.control-btn:active,
+.control-btn.active {
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+
+.icon {
+  font-size: 2em;
+  margin: 0 1em;
+}
+
+/* Media Queries
+==================== */
+@media (max-width: 768px) {
+
+}
+
+@media (max-width: 480px) {
+  header h1 {
+    font-size: 85px;
+    line-height: 1;
+  }
+  header h2 {
+    font-size: 35px;
+    line-height: 1;
+  }
+  header p {
+    font-size: 20px;
+    top: 15%;
+  }
+  .content-23 .control-btn {
+    bottom: 30px;
+  }
+  .content-23 .hero-unit h1 {
+    font-size: 36px;
+    font-weight: normal;
+    color: #ffffff;
+    font-weight: 600;
+    line-height: 33px;
+  }
+}
