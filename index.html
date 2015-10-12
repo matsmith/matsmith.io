@@ -1,85 +1,223 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <title>matsmith.io</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <link rel="shortcut icon" href="favicon.ico">
-        <link rel="stylesheet" href="css/icon-font.css">
-        <link rel="stylesheet" href="css/remix.css">
-    </head>
-    <body>
-        <header class="block background-cars">
-            <div class="block__align-middle">
-                <h1>Mat Smith</h1>
-                <h2>UI Engineer and Manager at</h2>
-                <p>
-                    <a href="https://order.dominos.com">Domino's Pizza</a>
-                </p>
-            </div>
-            <a class="control-btn fui-arrow-down" href="#"> </a>
-        </header>
-        <section class="block background-white">
-            <div class="block__align-middle clearfix">
-                <h3>Recent</h3>
-                <p>companies I have recently work on projects for</p>
-                <img src="img/samsung.png" alt="Samsung">
-                <img src="img/dominos.png" alt="Domino's Pizza">
-                <img src="img/ford.png" alt="Ford">
-            </div>
-            <a class="control-btn fui-arrow-down" href="#"> </a>
-        </section>
-        <section class="block background-morning">
-            <div class="block__align-middle">
-                <h1>my sanctuary</h1>
-            </div>
-            <a class="control-btn fui-arrow-down" href="#"> </a>
-        </section>
-        <section class="block background-transparent background-day-to-day">
-            <div class="block__align-middle">
-                <h1>day to day</h1>
-                <p>I'm the dude in the glasses.</p>
-            </div>
-            <a class="control-btn fui-arrow-down" href="#"> </a>
-        </section>
-        <section class="block background-sunset">
-            <div class="block__align-middle">
-                <h1>my getaway</h1>
-            </div>
-            <a class="control-btn fui-arrow-down" href="#"> </a>
-        </section>
-        <section class="block background-white">
-            <div class="block__align-middle">
-                <p>
-                    <a href="mailto:email@matsmith.io" title="Email" class="icon fui-mail"></a>
-                    <a href="https://twitter.com/msmit106" title="Twitter" class="icon fui-twitter"></a>
-                    <a href="https://google.com/+MathewSmithWithOneT" title="Google Plus" class="icon fui-googleplus"></a>
-                    <a href="http://www.linkedin.com/pub/mat-smith/5/b82/99a/" title="Linkedin" class="icon fui-linkedin"></a>
-                    <!-- <a href="https://github.com/matsmith" title="Github" class="icon fui-github"></a> -->
-                    <!-- <a class="btn btn-large btn-clear" href="">FIND OUT MORE</a> -->
-                </p>
-            </div>
-            <a class="control-btn fui-arrow-down" href="#"> </a>
-        </section>
-        <section class="block">
-            <div class="block__align-middle">
-                <p>You know a little about me, checkout my latest contributions</p>
-                <a class="btn btn-large btn-danger" href="https://github.com/dominosui">DOMINO'S UI ON GITHUB</a>
-            </div>
-        </section>
-        <footer class="block clearfix">
-            <div class="block__align-middle">
-                <a class="float-left" href="matsmith.github.io">matsmith.github.io</a>
-                <a class="float-right" href="">Ann Arbor, MI</a>
-                <p>web developer and technology advocate</p>
-            </div>
-        </footer>
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="Mathew Smith">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>Mat Smith | matsmith.io</title>
+    <link rel="shortcut icon" href="favicon.ico">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/remix.css" rel="stylesheet">
+    <link href="css/respond.css" rel="stylesheet">
+    <link href="css/icon-font.min.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
 
-        <script src="js/jquery-1.10.2.min.js"></script>
-        <script src="js/jquery.scrollTo-1.4.3.1-min.js"></script>
-        <script src="js/jquery.parallax.min.js"></script>
-        <script src="js/jquery.backgroundvideo.min.js"></script>
-        <script src="js/script.js"></script>
-    </body>
+<body>
+    <div id="loader-wrapper">
+        <div class="loader">
+            <div class="bounce1"></div>
+            <div class="bounce2"></div>
+            <div class="bounce3"></div>
+        </div>
+    </div>
+    <header>
+        <button class="toggle-btn"> <span class="lines"></span> 
+        </button>
+        <div class="menu">
+            <ul class="nav">
+                <li class="active"><a href="#home">Home</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+    <section id="home" class="fill">
+        <div class="home-background parallax-section">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="home-box col-xs-12">
+                        <div>
+                            <img src="img/head.jpg" alt="">
+                            <h1>Mathew Smith</h1> 
+                            <p>Manager / UI Architect / UI Engineer</p>
+                        </div>
+                        <div class="social">
+                            <ul>
+                                <li><a href="https://github.com/matsmith"><i class="fa fa-github"></i></a>
+                                </li>
+                                <li><a href="https://plus.google.com/+MathewSmithWithOneT/"><i class="fa fa-google-plus"></i></a>
+                                </li>
+                                <li><a href="https://www.linkedin.com/in/msmit106"><i class="fa fa-linkedin"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="education" class="fill">
+        <div class="container-fluid fill">
+            <div class="row fill">
+                <div class="section-background col-xs-12 col-sm-6 fill" data-mh="match-edu">
+                    <h2>Education</h2> 
+                    <ul class="resume-box">
+                        <li>
+                            <div class="year" data-mh="match-edu-box-1">
+                                <div>
+                                    <h4>2006-2007</h4>  <span>Bachelor Degree</span>
+                                </div>
+                            </div>
+                            <div class="box-content" data-mh="match-edu-box-1">
+                                <h4>Eastern Michigan University</h4>
+                                <p>Bachelor of Science / Technology Management<br />Minor in Computer Information Systems / Engineering</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="year" data-mh="match-edu-box-2">
+                                <div>
+                                    <h4>2002-2006</h4>  <span>Associate Degree</span>
+                                </div>
+                            </div>
+                            <div class="box-content" data-mh="match-edu-box-2">
+                                <h4>Washtenaw Community College</h4> 
+                                <p>Associate Degree / Web Applications Development<br />Internet Professional Department<br />Certification in Unix / Linux Administration</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="skills-background col-xs-12 col-sm-6 fill" data-mh="match-edu">
+                    <div class="black-layer">
+                        <div class="middle-content">
+                            <div class="skill-bar">
+                                <input type="text" value="0" data-number="90" class="dial">
+                                <h4>HTML5</h4> 
+                            </div>
+                            <div class="skill-bar">
+                                <input type="text" value="0" data-number="90" class="dial">
+                                <h4>CSS3</h4> 
+                            </div>
+                            <div class="skill-bar">
+                                <input type="text" value="0" data-number="85" class="dial">
+                                <h4>JS (full stack)</h4> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="experience">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="section-background col-xs-12 col-sm-6 col-sm-push-6" data-mh="match-experience">
+                    <h2>Experience</h2> 
+                    <ul class="resume-box">
+                        <li>
+                            <div class="year" data-mh="match-exp-box-1">
+                                <div>
+                                    <h4>2014-Current</h4>  <span>Johnson &amp; Johnson</span>
+                                </div>
+                            </div>
+                            <div class="box-content" data-mh="match-exp-box-1">
+                                <h4>User Interface Architect</h4> 
+                                <p>My primary responsibility to ensure all of the Johnson &amp; Johnson products presentation layer architecture is well engineered, maintainable, operable, and aligns to business vision/strategy. Additionally, I am responsible for working with the product team to be accountable to our end-users, establishing and testing to meet quantifiable usability-based goals to ensure a great user experience.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="year" data-mh="match-exp-box-2">
+                                <div>
+                                    <h4>2011-2014</h4>  <span>Domino's Pizza, LLC</span> 
+                                </div>
+                            </div>
+                            <div class="box-content" data-mh="match-exp-box-2">
+                                <h4>Manager UI Engineering</h4>
+                                <p>Managed a team of Specialist, UI Engineers within Domino's eCommerce department. In additiona I was responsible for the agile development cycle, sprint planning and estimation 
+                                which fed the two week production delivery. During my time at Domino's I also established innovation group to incubate emerging technologies. Oh, and I maintained kick-ass morale.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="year" data-mh="match-exp-box-3">
+                                <div>
+                                    <h4>2011-2011</h4>  <span>Domino's Pizza, LLC</span> 
+                                </div>
+                            </div>
+                            <div class="box-content" data-mh="match-exp-box-3">
+                                <h4>Specialist, UI Engineer</h4> 
+                                <p>As Specialist, UI Engineer at Domino’s I was part of a team that developed/maintained Domino's online ordering Single Page Application. Including architecture for a site that handled traffic loads of up to 1,400 orders a minute.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="year" data-mh="match-exp-box-3">
+                                <div>
+                                    <h4>2006-2011</h4>  <span>Cengage Learning</span> 
+                                </div>
+                            </div>
+                            <div class="box-content" data-mh="match-exp-box-3">
+                                <h4>Lead Web Developer</h4> 
+                                <p>Lead developer on a team of 20 for 3 years during which we developed PERL, PHP, ASP.NET C\# and Single Page Applications for multiple different public products.</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="hire-background col-xs-12 col-sm-6 col-sm-pull-6" data-mh="match-experience">
+                    <div class="white-layer">
+                        <div class="middle-content">
+                            <p>My last 10 years of employment</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="google-maps col-xs-12 col-sm-6 col-sm-push-6" data-mh="match-contact">
+                    <div id="map-canvas"></div>
+                </div>
+                <div class="section-background col-xs-12 col-sm-6 col-sm-pull-6" data-mh="match-contact">
+                    <h2>Get In Touch</h2> 
+                    <ul class="info">
+                        <li><i class="fa fa-envelope"></i>  <span>courier at matsmith dot I/O</span></li>
+                        <li><a href="https://www.linkedin.com/in/msmit106"><i class="fa fa-linkedin"></i>  LinkedIn</a></li>
+                        <li><a href="https://plus.google.com/+MathewSmithWithOneT/"><i class="fa fa-google-plus"></i>  Google+</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-background">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-left col-xs-6">
+                        <p><img src="favicon.ico"> <i class="fa fa-laptop"></i> <i class="fa fa-tablet"></i> <i class="fa fa-mobile"></i></p>
+                    </div>
+                    <div class="col-right col-xs-6">
+                        <a href="https://github.com/matsmith"><i class="fa fa-github"></i></a>
+                        <a href="https://plus.google.com/+MathewSmithWithOneT/"><i class="fa fa-google-plus"></i></a>
+                        <a href="https://www.linkedin.com/in/msmit106"><i class="fa fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?sensor=true"></script>
+    <script src="js/bootstrap-3.3.5.min.js"></script>
+    <script src="js/plugins.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
 </html>
